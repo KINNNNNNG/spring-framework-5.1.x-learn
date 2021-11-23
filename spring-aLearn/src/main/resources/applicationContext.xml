@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--Spring xml 文件头,用于约束XML格式-->
+<!--根标签，里面配置bean子标签-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean id="myBean" class="com.wk.edu.MyBean"/>
+</beans>
